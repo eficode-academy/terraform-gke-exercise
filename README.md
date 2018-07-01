@@ -39,7 +39,7 @@ terraform apply
 
 ----
 
-# Exercise 2 - Let's make more interesting
+# Exercise 2 - Let's make it more interesting
 
 1. Now, let's make everything dynamic. Replace all hardcoded values with variables and allow multiple tags and labels to be provided as input. Choose default values for variables where it makes sense.
 
@@ -120,6 +120,7 @@ kubectl get pods -o wide -w
 
 > What would happen to your workload (nginx) if you have done step 5 befoer step 4? 
 
+----
 
 # Exercise 5 - Let's pipeline it with Circleci.
 
