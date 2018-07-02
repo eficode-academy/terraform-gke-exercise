@@ -190,7 +190,7 @@ workflows:
   version: 2
   clusters-plan-approve-and-deploy:
     jobs:
-      - terraform-plan
+      - terraform-plan:
           filters:
             branches:
               only:
