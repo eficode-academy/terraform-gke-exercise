@@ -150,7 +150,7 @@ jobs:
       docker:
           # this image takes gcloud credentials from an env variable called: GCLOUD_CREDENTIALS and authenticates gcloud with it.
           # the credentials file is made available inside the container in: /tmp/credentials.json
-        - image: praqma/terraform-gcloud
+        - image: praqma/terraform-gcloud:11.7
 
       working_directory: ~/repo
       
@@ -170,7 +170,7 @@ jobs:
       docker:
           # this image takes gcloud credentials from an env variable called: GCLOUD_CREDENTIALS and authenticates gcloud with it.
           # the credentials file is made available inside the container in: /tmp/credentials.json
-        - image: praqma/terraform-gcloud
+        - image: praqma/terraform-gcloud:11.7
 
       working_directory: ~/repo
       
