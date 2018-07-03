@@ -58,7 +58,7 @@ resource "google_container_cluster" "primary" {
 
   master_auth {
     username = "admin"
-    password = "my-top-secret"
+    password = "my-top-secret128998908"
   }
 
   node_config {
